@@ -112,5 +112,5 @@ def count_pairs_fast(nums, target):
 
 nums = [1, 5, 7, -1, 5]
 target = 6
-print("Brute Force:", count_pairs_brute(nums, target))  # O(n^2)
-print("Optimized:  ", count_pairs_fast(nums, target))   # O(n)
+print("Brute Force:", count_pairs_brute(nums, target))
+print("Optimized:  ", count_pairs_fast(nums, target))
